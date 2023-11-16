@@ -1,0 +1,500 @@
+*{
+  margin: 0 auto;
+  padding: 0 auto;
+  text-decoration: none;
+}
+html{
+  background: url(images/resim1.jpg) no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size:cover;
+  background-repeat: no-repeat;
+}
+.menu {
+  height: 70px;
+  background-color: #ee7e15;
+  margin-top: 70px;
+}
+.logo {
+  position: absolute;
+  left: 200px;
+  bottom: 455px;
+}
+.liste {
+  text-align: center;
+  width: 700px;
+  height: 50px;
+  margin-left: 450px;
+}
+.liste ul {
+  list-style: none;
+}
+.liste ul li {
+  float: left;
+  width: 160px;
+  height: 70px;
+  position: relative;
+  line-height: 70px;
+  text-align: center;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.liste ul li a {
+  color: white;
+}
+.liste ul li ul {
+  display: none;
+  position: absolute;
+  top: 70px;
+  padding: 0;
+  z-index: 2;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.liste ul li:hover ul {
+  display: block;
+  background: #ef7f1a;
+}
+.liste ul li a:hover {
+  color: #dddddd;
+}
+.liste ul li ul li a h4 {
+  font-size: 15px;
+}
+#slider-wrapper {
+  position: relative;
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+  margin-top: 50px;
+  border-radius: 10px;
+  border: 10px double white;
+  z-index: 1;
+
+}
+.img-bir, .img-iki, .img-uc, .img-dort, .img-bes, .img-alti {
+  position: absolute;
+  width: 800px;
+  height: 400px;
+}
+.img-bir{
+  left: 0px;
+}
+.img-iki{
+  left: 800px;
+}
+.img-uc{
+  left: 1600px;
+}
+.img-dort{
+  left: 2400px;
+}
+.img-bes{
+  left: 3200px;
+}
+.img-alti{
+  left: 4000px;
+}
+
+#slider-wrapper > .slider{
+  position: absolute;
+  left: 0px;
+  width: 4000px;
+  height: 400px;
+  -webkit-animation-name: sliders;
+  -webkit-animation-duration: 40s;
+  -webkit-animation-iteration-count: infinite;
+}
+#slider-wrapper > .slider:hover{
+  -webkit-animation-play-state:paused;
+}
+@-webkit-keyframes sliders{
+  0%{left: -0px;}
+  10%{left: -0px;}
+  20%{left: -800px;}
+  30%{left: -800px;}
+  40%{left: -1600px;}
+  50%{left: -1600px;}
+  60%{left: -2400px;}
+  70%{left: -2400px;}
+  80%{left: -3200px;}
+  90%{left: -3200px;}
+  100%{left: -4000px;}
+  110%{left: -4000px;}
+}
+.bilgi {
+  width: 1024px;
+  height: auto;
+  margin-top: 10px;
+  background-color: white;
+}
+.gorsel {
+  width: 1024px;
+  height: 395px;
+  background-color: white;
+}
+.gorsel1 {
+  background-color: white;
+  width: 280px;
+  height: 100px;
+  float: left;
+  margin-left: 42px;
+  margin-top: 25px;
+  margin-bottom: 2px;
+  padding-top: 5px;
+  text-align: center;
+  border: 2px solid black;
+}
+.gorsel2 {
+  background-color: white;
+  width: 280px;
+  height: 100px;
+  float: left;
+  margin-left: 42px;
+  margin-top: 25px;
+  margin-bottom: 2px;
+  padding-top: 5px;
+  text-align: center;
+  border: 2px solid black;
+}
+.gorsel3 {
+  background-color: white;
+  width: 280px;
+  height: 100px;
+  float: left;
+  margin-left: 42px;
+  margin-top: 25px;
+  margin-bottom: 2px;
+  padding-top: 5px;
+  text-align: center;
+  border: 2px solid black;
+}
+.gorsel1y {
+  width: 284px;
+  height: 44px;
+  float: left;
+  margin-left: 42px;
+  background-color: #1c1c1c;
+  font-family: sans-serif;
+  text-align: center;
+}
+.gorsel2y {
+  width: 284px;
+  height: 44px;
+  float: left;
+  margin-left: 42px;
+  background-color: #1c1c1c;
+  font-family: sans-serif;
+  text-align: center;
+}
+.gorsel3y {
+  width: 284px;
+  height: 44px;
+  float: left;
+  margin-left: 42px;
+  background-color: #1c1c1c;
+  font-family: sans-serif;
+  text-align: center;
+}
+.gorsel1y a {
+  color: white;
+  margin-top: 10px;
+}
+.gorsel1y a h4 {
+  padding: 12px;
+}
+.gorsel2y a {
+  color: white;
+  margin-top: 10px;
+}
+.gorsel2y a h4 {
+  padding: 12px;
+}
+.gorsel3y a {
+  color: white;
+  margin-top: 10px;
+}
+.gorsel3y a h4 {
+  padding: 12px;
+}
+.gorsel1y:hover {
+  background-color: #ffc000;
+}
+.gorsel2y:hover {
+  background-color: #ffc000;
+}
+
+.gorsel3y:hover {
+  background-color: #ffc000;
+}
+.solbilgi {
+  width: 300px;
+  height: 550px;
+  background-color: white;
+  float: left;
+  text-align: center;
+  padding-top: 50px;
+}
+.solbilgi h1 {
+  color: #8b4726;
+  font-size: 25px;
+  margin-bottom: -10px;
+}
+.fiyat {
+  font-size: 18px;
+  font-family: sans-serif;
+  margin-bottom: 11px;
+}
+.adres {
+  font-size: 17px;
+}
+.sagbilgi {
+  width: 724px;
+  height: 600px;
+  background-color: white;
+  float: left;
+}
+.sagbilgi h1 {
+  text-align: center;
+  color: #8b4726;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+.sagbilgi h2 {
+  color: #8b4726;
+}
+.sagbilgi p {
+  font-size: 18px;
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.altlogo {
+  width: 1024px;
+  height: 150px;
+  background-color: #f8f8ff;
+  float: left;
+}
+.alogo {
+  width: 200px;
+  height: 80px;
+  left: left;
+  margin-left: 190px;
+  margin-top: 35px;
+}
+.alogo2 {
+  width: 180px;
+  height: 60px;
+  left: left;
+  margin-left: 80px;
+  margin-top: 45px;
+}
+.alogo3 {
+  width: 120px;
+  height: 80px;
+  left: left;
+  margin-left: 90px;
+  margin-top: 35px;
+}
+.altbilgi {
+  width: 1024px;
+  height: 100px;
+  float: left;
+  padding-top: 15px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: white;
+}
+.cesitresim {
+  width: 1024px;
+  height: 450px;
+  margin: auto;
+  margin-top: 50px;
+}
+.bilgi2 {
+  width: 1024px;
+  height: auto;
+  background-color: white;
+  padding-top: 30px;
+}
+.bilgianzer{
+  width: 1024px;
+  height: auto;
+  background-color: white;
+  padding-top: 30px;
+}
+.solbilgianzer {
+  width: 300px;
+  height: 1126px;
+  background-color: white;
+  float: left;
+  text-align: center;
+  padding-top: 50px;
+}
+.solbilgianzer h1 {
+  color: #8b4726;
+  font-size: 25px;
+  margin-bottom: -10px;
+}
+.fiyatanzer {
+  font-size: 18px;
+  font-family: sans-serif;
+  margin-bottom: 11px;
+}
+.adresanzer {
+  font-size: 17px;
+}
+.sagbilgianzer {
+  width: 724px;
+  height: 1176px;
+  background-color: white;
+  float: left;
+}
+.sagbilgianzer h1 {
+  text-align: center;
+  color: #8b4726;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+.sagbilgianzer h2 {
+  color: #8b4726;
+}
+.sagbilgianzer p {
+  font-size: 18px;
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.bilgipolen {
+  width: 1024px;
+  height: auto;
+  background-color: white;
+  padding-top: 30px;
+}
+.solbilgipolen {
+  width: 300px;
+  height: 900px;
+  background-color: white;
+  float: left;
+  text-align: center;
+  padding-top: 50px;
+}
+.solbilgipolen h1 {
+  color: #8b4726;
+  font-size: 25px;
+  margin-bottom: -10px;
+}
+.fiyatpolen {
+  font-size: 18px;
+  font-family: sans-serif;
+  margin-bottom: 11px;
+}
+.adrespolen {
+  font-size: 17px;
+}
+.sagbilgipolen {
+  width: 724px;
+  height: 950px;
+  background-color: white;
+  float: left;
+}
+.sagbilgipolen h1 {
+  text-align: center;
+  color: #8b4726;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+.sagbilgipolen h2 {
+  color: #8b4726;
+}
+.sagbilgipolen p {
+  font-size: 18px;
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.galeribilgi3 {
+  width: 1024px;
+  height: auto;
+  background-color: white;
+  padding-top: 30px;
+  margin-top: 50px;
+}
+.galerigorsel1 {
+  background-color: white;
+  width: 170px;
+  height: 150px;
+  float: left;
+  margin-left: 42px;
+  margin-top: 25px;
+  margin-bottom: 2px;
+  padding-top: 7px;
+  text-align: center;
+  border: 2px solid #f2f2f2
+}
+.galerigorsel2 {
+  background-color: white;
+  width: 170px;
+  height: 150px;
+  float: left;
+  margin-left: 42px;
+  margin-top: 25px;
+  margin-bottom: 2px;
+  padding-top: 7px;
+  text-align: center;
+  border: 2px solid #f2f2f2
+}
+.galerigorsel3 {
+  background-color: white;
+  width: 170px;
+  height: 150px;
+  float: left;
+  margin-left: 42px;
+  margin-top: 25px;
+  margin-bottom: 2px;
+  padding-top: 7px;
+  text-align: center;
+  border: 2px solid #f2f2f2
+}
+.iletisim {
+  background-color: white;
+  width: 1024px;
+  height: 700px;
+  margin-top: 50px;
+  padding-top: 7px;
+  text-align: center;
+}
+.iletisimbilgi {
+  width: 1024px;
+  height: 900px;
+  margin-top: 80px;
+  float: left;
+  background-color: white;
+}
+.iletisimbilgi h1 {
+  text-align: center;
+  color: #8b4726;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+.iletisimbilgi h2 {
+  float: left;
+  margin-left: 70px;
+  color: #8b4726;
+}
+.iletisimbilgi p {
+  font-size: 18px;
+  text-align: justify;
+  margin-left: 70px;
+}
+#urunler {
+  margin-top: 8%;
+  font-family: sans-serif;
+  border-collapse: collapse;
+}
+#urunler td, #urunler th {
+  border: 1px solid #dddddd;
+  padding: 15px 60px;
+}
+#urunler tr:nth-child(even) {
+  background-color: #dddddd;
+}
